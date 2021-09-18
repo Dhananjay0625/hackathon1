@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*--------HEADER------*/
+
+.main-nav {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(116, 100, 80);
+    padding: 8px;
+}
+
+.main-nav-li {
+    list-style: none;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+.cart {
+    font-size: 30px;
+    position: relative;
+    left: -40px;
+}
+
+.company-logo {
+    font-size: 3.7rem;
+    float: right;
+    margin-top: -7.5rem;
+    margin-left: 1rem;
+    padding: 3rem;
+    color: rgb(116, 100, 80);
+}
+
+.company-name {
+    font-size: 2rem;
+    float: right;
+    margin-top: -4.5rem;
+    margin-right: 7.6rem;
+    color: rgb(116, 100, 80);
+}
+
+.drop0::after {
+    content: attr(tooltip0);
+    display: block;
+    position: absolute;
+    background-color: rgb(225, 126, 73);
+    padding: .3em .7em;
+    color: white;
+    border-radius: 5px;
+    font-size: .8em;
+    top: 6.6%;
+    left: 6.5%;
+    transform: scale(0);
+    transition: .5s ease-out;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: .5s ease-out 100ms;
+    -moz-transition: .5s ease-out;
+    -ms-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+.drop::after {
+    content: attr(tooltip);
+    display: block;
+    position: absolute;
+    background-color: rgb(225, 126, 73);
+    padding: .3em .7em;
+    color: white;
+    border-radius: 5px;
+    font-size: .8em;
+    top: 6.6%;
+    left: 1%;
+    transform: scale(0);
+    transition: .5s ease-out;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: .5s ease-out 100ms;
+    -moz-transition: .5s ease-out;
+    -ms-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+.drop1::after {
+    content: attr(tooltip1);
+    display: block;
+    position: absolute;
+    background-color: rgb(225, 126, 73);
+    padding: .3em .7em;
+    color: white;
+    border-radius: 5px;
+    font-size: .8em;
+    top: 6.6%;
+    left: 15%;
+    transform: scale(0);
+    transition: .5s ease-out;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: .5s ease-out 100ms;
+    -moz-transition: .5s ease-out;
+    -ms-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+.drop2::after {
+    content: attr(tooltip2);
+    display: block;
+    position: absolute;
+    background-color: rgb(225, 126, 73);
+    padding: .3em .7em;
+    color: white;
+    border-radius: 5px;
+    font-size: .8em;
+    top: 6.6%;
+    left: 25%;
+    transform: scale(0);
+    transition: .5s ease-out;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: .5s ease-out 100ms;
+    -moz-transition: .5s ease-out;
+    -ms-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+.drop3::after {
+    content: attr(tooltip3);
+    display: block;
+    position: absolute;
+    background-color: rgb(225, 126, 73);
+    padding: .3em .7em;
+    color: white;
+    border-radius: 5px;
+    font-size: .8em;
+    top: 6.6%;
+    left: 31%;
+    transform: scale(0);
+    transition: .5s ease-out;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: .5s ease-out 100ms;
+    -moz-transition: .5s ease-out;
+    -ms-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+}
+
+.drop:hover::after,
+.drop0:hover::after,
+.drop1:hover:after,
+.drop2:hover:after,
+.drop3:hover:after {
+    transform: scale(1);
+}
+
+
+/*--------MAIN------*/
+
+.main div {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(235, 187, 128);
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.heading {
+    margin-top: 50px;
+}
+
+.heading-form {
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.cart1 {
+    position: relative;
+    left: -5%;
+    font-size: 350px;
+    opacity: 0.8;
+}
+
+.btn-cart {
+    position: relative;
+    left: -4%;
+    font-size: 15px;
+    background: rgb(235, 187, 128);
+    color: beige;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 50px;
+    border: 1px solid rgb(235, 187, 128);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgb(232, 168, 89);
+}
+
+.btn-send {
+    position: relative;
+    top: -50px;
+}
+
+
+
+.products {
+    display: flex;
+}
+
+.product {
+    margin-left: 150px;
+}
+
+.heading-shop {
+    margin-left: 190px;
+}
+
+.price {
+    padding: 0 10px 10px 10px;
+    font-size: 16px;
+    color: rgb(235, 187, 128);
+    margin-left: 20px;
+}
+
+.colours {
+    padding: 0 10px 10px 10px;
+    font-size: 13px;
+    color: rgb(235, 187, 128);
+    margin-left: 20px;
+}
+
+.shoe {
+    padding: 10px;
+    width: 330px;
+    height: 300px;
+    margin-left: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.btn {
+    font-size: 15px;
+    background: rgb(235, 187, 128);
+    color: beige;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 50px;
+    border: 1px solid rgb(235, 187, 128);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.btn-cart {
+    position: relative;
+    left: 70%;
+    bottom: 10%;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgb(232, 168, 89);
+}
+
+/*--------FORM------*/
+
+.form1 {
+    background-color: rgb(249, 247, 247);
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 0 0 30%;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
+
+.form {
+    display: flex;
+}
+
+.name,
+.email,
+.find,
+.newsletter,
+.message {
+    color: rgb(235, 187, 128);
+    font-size: 28px;
+}
+
+.input-name {
+    margin: 0 0 20px 250px;
+    width: 400px;
+
+}
+
+.input-email {
+    margin: 0 0 20px 260px;
+    width: 400px;
+}
+
+.input-find {
+    margin: 0 0 20px 51px;
+    width: 400px;
+}
+
+.input-newsletter {
+    margin: 0 0 20px 167px;
+    width: 400px;
+}
+
+.input-message {
+    margin: 0 0 20px 144px;
+    width: 400px;
+}
+
+/*--------FOOTER------*/
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited, 
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+
+footer p {
+    color: #888;
+    margin-top: 50px;
+    margin-left: 650px;
+}
