@@ -358,8 +358,9 @@ h2 {
     margin-left: 300px;
 }
 
-.heading-shop {
-    margin-left: 640px;
+.sub_shopnow {
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .heading-form::after {
