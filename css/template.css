@@ -353,6 +353,10 @@ h2 {
     right: 3%;
 }
 
+.sub_heading-form {
+    max-width: 700px;
+    margin: auto;
+}
 
 .heading-form {
     margin-left: 300px;
@@ -379,6 +383,11 @@ h2 {
     width: 260px;
     height: 3px;
     background-color: rgb(235, 187, 128);
+}
+
+.sub_hero-heading {
+    max-width: 100px;
+    padding: 10px;
 }
 
 /*--------BUTTONS------*/
@@ -507,6 +516,10 @@ footer {
 
 footer p {
     color: #888;
-    margin-top: 50px;
-    margin-left: 650px;
+}
+
+.copyright {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
